@@ -16,7 +16,7 @@ function ContactUs() {
   
      <div className="row">
         
-    <form role="form" class="col">
+    <form  class="col">
 
   <div class="form-group">
     <label for="email">Email address:</label>

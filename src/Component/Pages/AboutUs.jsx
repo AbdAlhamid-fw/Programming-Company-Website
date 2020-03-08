@@ -1,7 +1,7 @@
 
 import React from 'react';
-import LinksList from '../LinksList';
-import ListItems from '../ListItems';
+//import LinksList from '../LinksList';
+//import ListItems from '../ListItems';
 
 //import image1 from '../img/ContactUs1.jpg';
 

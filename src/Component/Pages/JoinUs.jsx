@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 //import LinksList from '../LinksList';
 //import ListItems from '../ListItems';
@@ -11,7 +9,7 @@ function JoinUs() {
    <h2>Join us</h2>
   <div className="row">
      
- <form role="form" class="col">
+ <form  class="col">
 
 <div class="form-group">
  <label for="email">Email address:</label>
