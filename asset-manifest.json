@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Programming-Company-Website/static/css/main.0eae9705.chunk.css",
-    "main.js": "/Programming-Company-Website/static/js/main.1ab9e816.chunk.js",
-    "main.js.map": "/Programming-Company-Website/static/js/main.1ab9e816.chunk.js.map",
+    "main.css": "/Programming-Company-Website/static/css/main.4be24632.chunk.css",
+    "main.js": "/Programming-Company-Website/static/js/main.5febfe2e.chunk.js",
+    "main.js.map": "/Programming-Company-Website/static/js/main.5febfe2e.chunk.js.map",
     "runtime-main.js": "/Programming-Company-Website/static/js/runtime-main.9fbbd940.js",
     "runtime-main.js.map": "/Programming-Company-Website/static/js/runtime-main.9fbbd940.js.map",
-    "static/js/2.7dbf07ea.chunk.js": "/Programming-Company-Website/static/js/2.7dbf07ea.chunk.js",
-    "static/js/2.7dbf07ea.chunk.js.map": "/Programming-Company-Website/static/js/2.7dbf07ea.chunk.js.map",
+    "static/js/2.195981fe.chunk.js": "/Programming-Company-Website/static/js/2.195981fe.chunk.js",
+    "static/js/2.195981fe.chunk.js.map": "/Programming-Company-Website/static/js/2.195981fe.chunk.js.map",
     "index.html": "/Programming-Company-Website/index.html",
-    "precache-manifest.5710f3d250c5e1631e40a6e5c8063b9e.js": "/Programming-Company-Website/precache-manifest.5710f3d250c5e1631e40a6e5c8063b9e.js",
+    "precache-manifest.0a0141d1120bd840a775cb05532b3b69.js": "/Programming-Company-Website/precache-manifest.0a0141d1120bd840a775cb05532b3b69.js",
     "service-worker.js": "/Programming-Company-Website/service-worker.js",
-    "static/css/main.0eae9705.chunk.css.map": "/Programming-Company-Website/static/css/main.0eae9705.chunk.css.map",
-    "static/js/2.7dbf07ea.chunk.js.LICENSE.txt": "/Programming-Company-Website/static/js/2.7dbf07ea.chunk.js.LICENSE.txt",
+    "static/css/main.4be24632.chunk.css.map": "/Programming-Company-Website/static/css/main.4be24632.chunk.css.map",
+    "static/js/2.195981fe.chunk.js.LICENSE.txt": "/Programming-Company-Website/static/js/2.195981fe.chunk.js.LICENSE.txt",
     "static/media/3.jpg": "/Programming-Company-Website/static/media/3.8d614dee.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9fbbd940.js",
-    "static/js/2.7dbf07ea.chunk.js",
-    "static/css/main.0eae9705.chunk.css",
-    "static/js/main.1ab9e816.chunk.js"
+    "static/js/2.195981fe.chunk.js",
+    "static/css/main.4be24632.chunk.css",
+    "static/js/main.5febfe2e.chunk.js"
   ]
 }
