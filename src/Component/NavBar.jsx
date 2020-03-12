@@ -8,6 +8,7 @@ import Client from './Pages/Client';
 import ContactUs from './Pages/ContactUs';
 import JoinUs from './Pages/JoinUs';
 import AboutUs from './Pages/AboutUs';
+import Styles from './Styles';
 
 
 function NavBar() {
@@ -15,53 +16,54 @@ function NavBar() {
   return (
     <Router>
     <div className="NavBar">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top " >
  
-  <Link class="navbar-brand" to="logo">PCW </Link>
+  <Link className="navbar-brand" to="logo">PCW </Link>
 
  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span className="navbar-toggler-icon"></span>
   </button>
 
  
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
+  <div className="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul className="navbar-nav">
       
       <li className="nav-item ">
-      <Link class="nav-link" to="/">Home</Link>
+      <Link className="nav-link" to="/">Home</Link>
     </li>
 
     <li className="nav-item">
-      <Link class="nav-link" to="/products">Products </Link>
+      <Link className="nav-link" to="/products">Products </Link>
     </li>
 
     <li className="nav-item">
-      <Link class="nav-link" to="/services">Services </Link>
+      <Link className="nav-link" to="/services">Services </Link>
     </li>
     
     <li className="nav-item">
-      <Link class="nav-link" to="/client">Client </Link>
+      <Link className="nav-link" to="/client">Client </Link>
     </li>
 
     <li className="nav-item">
-      <Link class="nav-link" to="/about us">About us </Link>
+      <Link className="nav-link" to="/about us">About us </Link>
     </li>
 
     <li className="nav-item">
-      <Link class="nav-link" to="/join us">Join us </Link>
+      <Link className="nav-link" to="/join us">Join us </Link>
     </li>
 
     <li className="nav-item">
-      <Link class="nav-link" to="/contact us">Contact us </Link>
+      <Link className="nav-link" to="/contact us">Contact us </Link>
     </li>
 
     </ul>
+      <Styles />
   </div>
 </nav>
     </div>
     
-      <div class="container1">
+      <div className="container1">
     <Route path="/" component={Home} exact />
     <Route path="/products" component={Products} />
     <Route path="/services" component={Services} />

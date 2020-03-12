@@ -1,25 +1,46 @@
 
 .App {
   text-align: center;
-  background-color: #343a40;
-  color :#837a7a;
   font-family: fantasy;
   
+}
+body{
+  background-color: #343a40;
+  color :#837a7a;
 }
 h3{
   color:rgb(117, 18, 18)
 }
 
 /**header*/
-/**/
+
+/*color component*/
+.color-comp{
+  border-radius: 50%;
+  height: 47px;
+  width: 17px;
+  margin-left: 2px
+}
+
+.dropleft .dropdown-menu {
+  background-color: #057629cf;
+  padding: 9px;
+}
+.style-comp{
+  display: contents;
+}
+
 /*carousel-img*/
 .Carousel{
   margin-top: 71px;
 }
+.carousel-item{
+  height : 100%;
+}
 
 .carousel-img{
   width: 100%;
- 
+  height : 100%;
 }
 .carousel-inner.inner  {
  
