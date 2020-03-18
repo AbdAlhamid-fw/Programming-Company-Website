@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Programming-Company-Website/static/css/main.4be24632.chunk.css",
-    "main.js": "/Programming-Company-Website/static/js/main.5febfe2e.chunk.js",
-    "main.js.map": "/Programming-Company-Website/static/js/main.5febfe2e.chunk.js.map",
+    "main.css": "/Programming-Company-Website/static/css/main.9fddaa8f.chunk.css",
+    "main.js": "/Programming-Company-Website/static/js/main.320d7398.chunk.js",
+    "main.js.map": "/Programming-Company-Website/static/js/main.320d7398.chunk.js.map",
     "runtime-main.js": "/Programming-Company-Website/static/js/runtime-main.9fbbd940.js",
     "runtime-main.js.map": "/Programming-Company-Website/static/js/runtime-main.9fbbd940.js.map",
-    "static/js/2.195981fe.chunk.js": "/Programming-Company-Website/static/js/2.195981fe.chunk.js",
-    "static/js/2.195981fe.chunk.js.map": "/Programming-Company-Website/static/js/2.195981fe.chunk.js.map",
+    "static/js/2.8982e2e0.chunk.js": "/Programming-Company-Website/static/js/2.8982e2e0.chunk.js",
+    "static/js/2.8982e2e0.chunk.js.map": "/Programming-Company-Website/static/js/2.8982e2e0.chunk.js.map",
     "index.html": "/Programming-Company-Website/index.html",
-    "precache-manifest.0a0141d1120bd840a775cb05532b3b69.js": "/Programming-Company-Website/precache-manifest.0a0141d1120bd840a775cb05532b3b69.js",
+    "precache-manifest.9ed6e65ba5224e5aae00c8df2268bcbd.js": "/Programming-Company-Website/precache-manifest.9ed6e65ba5224e5aae00c8df2268bcbd.js",
     "service-worker.js": "/Programming-Company-Website/service-worker.js",
-    "static/css/main.4be24632.chunk.css.map": "/Programming-Company-Website/static/css/main.4be24632.chunk.css.map",
-    "static/js/2.195981fe.chunk.js.LICENSE.txt": "/Programming-Company-Website/static/js/2.195981fe.chunk.js.LICENSE.txt",
-    "static/media/3.jpg": "/Programming-Company-Website/static/media/3.8d614dee.jpg"
+    "static/css/main.9fddaa8f.chunk.css.map": "/Programming-Company-Website/static/css/main.9fddaa8f.chunk.css.map",
+    "static/js/2.8982e2e0.chunk.js.LICENSE.txt": "/Programming-Company-Website/static/js/2.8982e2e0.chunk.js.LICENSE.txt",
+    "static/media/3.jpg": "/Programming-Company-Website/static/media/3.8d614dee.jpg",
+    "static/media/logo.jpg": "/Programming-Company-Website/static/media/logo.ddce03a8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9fbbd940.js",
-    "static/js/2.195981fe.chunk.js",
-    "static/css/main.4be24632.chunk.css",
-    "static/js/main.5febfe2e.chunk.js"
+    "static/js/2.8982e2e0.chunk.js",
+    "static/css/main.9fddaa8f.chunk.css",
+    "static/js/main.320d7398.chunk.js"
   ]
 }
