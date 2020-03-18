@@ -3,6 +3,7 @@ import React,{Component} from 'react';
 //import logo from './logo.svg';
 //import "./bootstrap.min.css";
 import './App.css';
+//import './font-awesome.min.css'
 import Header from './Component/Layout/Header';
 import Footer from './Component/Layout/Footer';
 

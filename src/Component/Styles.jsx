@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Style from  "./Style";
-import changeCss from "../changeCss.css";
+//import changeCss from "../changeCss.css";
 
 
 class Styles extends React.Component{
@@ -38,9 +38,9 @@ class Styles extends React.Component{
 
     render(){
         return(
-            <div className="dropdown dropleft float-right colors-comp" >
-            <button type="button" className="btn btn-primary dropdown-toggle "  data-toggle="dropdown">
-              Colors
+            <div className="dropdown dropleft float-right colors-comp " >
+            <button type="button" className="btn  dropdown-toggle styles-btn "  data-toggle="dropdown">
+               <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
             </button>
            
               <div className="dropdown-menu  ">

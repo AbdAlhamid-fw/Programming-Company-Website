@@ -6,7 +6,7 @@ import NavBar from "../NavBar";
 function Header() {
   
   return (
-    <div className="Header">
+    <div className="Header ">
        <Carousel/>
          <NavBar/> 
       

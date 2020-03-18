@@ -15,13 +15,18 @@ h3{
 /**header*/
 
 /*color component*/
+.styles-btn {
+  border-radius: 50%;
+  background-color: #1e7e3430;
+  padding: 5px;
+  }
+  .fa-pencil-square-o:before{color:#008000}
 .color-comp{
   border-radius: 50%;
   height: 47px;
   width: 17px;
   margin-left: 2px
 }
-
 .dropleft .dropdown-menu {
   background-color: #057629cf;
   padding: 9px;
@@ -30,10 +35,13 @@ h3{
   display: contents;
 }
 
-/*carousel-img*/
-.Carousel{
-  margin-top: 71px;
+
+/*navbar*/
+.collapse.navbar-collapse.fluid-container{
+  justify-content: space-between;
 }
+
+/*carousel*/
 .carousel-item{
   height : 100%;
 }
@@ -43,26 +51,44 @@ h3{
   height : 100%;
 }
 .carousel-inner.inner  {
- 
   height: 450px;
 }
-.carousel-indicators.homeH2{
-  background: rgba(0,0,0,0.2);
+
+.carousel-control-next.carousel-control-prev{z-index: 2;}
+.carousel-indicators.carousel-layer{ 
+  height: 450px;
+  display: block;
+  background: #0000004a;
   color:green;
-  margin-top:50px;
-  margin-bottom: 50px
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  z-index: 1;
 }
-/*navbar*/
-.sticky-top.sticky{
-  position: sticky;
+.homeH2{
+  display: block;
+  height: 30%;
+  padding-top: 5%;
 }
+.logo{
+  height: 70%;
+  box-sizing: initial;
+  margin-bottom: 5%;
+}
+.carousel-log-img {
+  border-radius: 50%;
+  opacity: .5;
+}
+
+
 
 
 /*Container*/
 /*contact us*/
 .container1{
   padding: 40px 0px;
-  margin-top: 70px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   height: auto;
   background: #0c0c0c;
  
@@ -70,10 +96,7 @@ h3{
 .textarea-contactUs.form-control{
   margin-bottom: 20px;
 }
-/*nav bar*/
-nav div{
-  margin-bottom : 0px;
-}
+
 
 /*footer**/
 footer {

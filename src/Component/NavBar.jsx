@@ -15,8 +15,8 @@ function NavBar() {
   
   return (
     <Router>
-    <div className="NavBar">
-    <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top " >
+    
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark NavBar sticky-top " >
  
   <Link className="navbar-brand" to="logo">PCW </Link>
 
@@ -26,7 +26,7 @@ function NavBar() {
   </button>
 
  
-  <div className="collapse navbar-collapse" id="collapsibleNavbar">
+  <div className="collapse navbar-collapse fluid-container" id="collapsibleNavbar">
     <ul className="navbar-nav">
       
       <li className="nav-item ">
@@ -61,7 +61,7 @@ function NavBar() {
       <Styles />
   </div>
 </nav>
-    </div>
+    
     
       <div className="container1">
     <Route path="/" component={Home} exact />
