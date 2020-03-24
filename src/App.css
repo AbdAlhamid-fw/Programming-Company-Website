@@ -1,15 +1,19 @@
 
 .App {
   text-align: center;
-  font-family: fantasy;
-  
+  font-size: 20px;
 }
 body{
   background-color: #343a40;
   color :#837a7a;
 }
 h3{
-  color:rgb(117, 18, 18)
+  color:rgb(117, 18, 18);
+  font-size: 25px;
+}
+img{
+  height: 100%;
+  width: 100%;
 }
 
 /**header*/
@@ -67,13 +71,15 @@ h3{
 }
 .homeH2{
   display: block;
-  height: 30%;
-  padding-top: 5%;
+  height: 20%;
+  margin: 1%;
 }
 .logo{
-  height: 70%;
+  height: 75%;
+  width: 30%;
   box-sizing: initial;
   margin-bottom: 5%;
+  padding: 0 35%;
 }
 .carousel-log-img {
   border-radius: 50%;
@@ -84,15 +90,16 @@ h3{
 
 
 /*Container*/
-/*contact us*/
+
 .container1{
-  padding: 40px 0px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin: 1px 0px;
   height: auto;
-  background: #0c0c0c;
- 
+  background: white;
 }
+
+/*services comp*/
+.service.container{max-width: 100%}
+/*contact us*/
 .textarea-contactUs.form-control{
   margin-bottom: 20px;
 }
@@ -100,7 +107,6 @@ h3{
 
 /*footer**/
 footer {
-
   margin-bottom: 0px;
 }
 .Footer.jumbotron{

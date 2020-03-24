@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Style from  "./Style";
 //import changeCss from "../changeCss.css";
@@ -8,10 +7,11 @@ class Styles extends React.Component{
     
     constructor(props){
        super(props);
-       this.state ={
+       this.state ={ 
         color : ""
     }
     }
+    
     colors=['red','green','blue','white','black',"#9317174f","#1d3122e0",'#313532e0','#051846eb','#3d3f42eb'];
 
   //componentDidUpdate executed when any  change for state
