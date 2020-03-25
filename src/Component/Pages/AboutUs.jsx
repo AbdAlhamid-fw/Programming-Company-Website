@@ -1,24 +1,77 @@
 
 import React from 'react';
-//import LinksList from '../LinksList';
-//import ListItems from '../ListItems';
+import ListItems from  "../ListItems";
+import Image1 from "../../img/5.jpg";
+import Image2 from "../../img/2.jpg";
+import Image3 from "../../img/3.jpg";
+class AboutUs extends React.Component{
+state = {
+  hover1: false,
+  hover2: false,
+  hover3: false,
+  hover4: false
+}
+emails = ["Eng.Fadi@gmail.com","Abood@gmail.com","Eng.Nour@gmail.com","Abood@gmail.com","Ahmad@gmail.com"];
+phones = ["0622121112","54546554464","564564564545","5464653486","09554454624"];
 
-//import image1 from '../img/ContactUs1.jpg';
-
-function AboutUs() {
- // const emails = ["Eng.Fadi@gmail.com","Abood@gmail.com","Eng.Nour@gmail.com"];
- // const phones = ["0622121112","54546554464","564564564545","5464653486","09554454624"];
- /*const contactUs ={
-  background: rgba(0,0,0,0.4)
- }*/
- return (
-   <div className="AboutUs container " >
-   <h2>About Us </h2>
-   <p>We Are a Company for you
-   </p>
-   </div>
- );
+hover = (name) => {
+  this.setState({[name]: true});
 }
 
-export default AboutUs;
+unhover = (name) => {
+  this.setState({[name]: false});
+}
 
+render() {
+      const names = {
+          n1:'Fadi selo',
+          n2:'Ahmed fawal',
+          n3:'Nour silo',
+          n4:'abooood'
+      }
+
+      const testimonials = {
+          t1: '"The service is amazing and cheap."',
+          t2: '"Very professional people."',
+          t3: '"One of the best in the field."',
+          t4: '"I recommend it to everybody."'
+      }
+      return (
+            <div className="AboutUs">
+            <h1>About Us</h1>
+            <div className="row">
+            <ListItems listItems={this.emails}  className="col"/>
+            <ListItems listItems={this.phones}  className="col"/>
+            </div>
+          <div className='testimonials' onMouseEnter={() => this.hover('hover1')} onMouseLeave={() => this.unhover('hover1')}>
+              <div className='testimonials-holder'>
+                  <img src={Image1} alt="osama"/>
+                  <div  className="test-section">
+                      {this.state.hover1 ? testimonials.t1 : names.n1}
+                  </div>
+              </div>
+              <div className='testimonials-holder' onMouseEnter={() => this.hover('hover2')} onMouseLeave={() => this.unhover('hover2')}>
+                  <img src={Image2} alt="ahmed"/>
+                  <div  className="test-section">
+                      {this.state.hover2 ? testimonials.t2 : names.n2}
+                  </div>
+              </div>
+              <div className='testimonials-holder' onMouseEnter={() => this.hover('hover3')} onMouseLeave={() => this.unhover('hover3')} >
+                  <img src={Image3} alt="sara"/>
+                  <div className="test-section">
+                      {this.state.hover3 ? testimonials.t3 : names.n3}
+                  </div>
+              </div>
+              <div className='testimonials-holder' onMouseEnter={() => this.hover('hover4')} onMouseLeave={() => this.unhover('hover4')}>
+                  <img src={Image1} alt="omar"/>
+                  <div  className="test-section">
+                      {this.state.hover4 ? testimonials.t4 : names.n4}
+                  </div>
+              </div>
+          </div>
+       </div>
+  )
+}}
+
+
+export default AboutUs;

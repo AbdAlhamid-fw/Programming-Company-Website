@@ -10,7 +10,7 @@ function ListItem(props){
     }
         return (
         
-           <div className="ListItems container mb-2 pb-2 pt-2">
+           <div className="ListItems col mb-2 pb-2 pt-2  ">
            <h3>{props.title }</h3>
            <ul className="nav first nav-pills flex-column ">
               {listItems}

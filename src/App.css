@@ -1,7 +1,7 @@
 
 .App {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 body{
   background-color: #343a40;
@@ -92,9 +92,10 @@ img{
 /*Container*/
 
 .container1{
-  margin: 1px 0px;
+  margin: 2px 0px;
   height: auto;
   background: white;
+  padding : 40px 0px;
 }
 
 /*services comp*/
@@ -105,35 +106,31 @@ img{
 }
 
 
-/*footer**/
-footer {
-  margin-bottom: 0px;
-}
-.Footer.jumbotron{
-  margin-bottom: 0px;
-  background-color: #343a40;
- 
-}
-
-.Footer-part1 h3 {
-  color : green;
-}
-
-.nav-item.item-in-footer{
-  padding-bottom : 5px;
-}
-
-.row.footer-row{margin-bottom :40px }
-
-.Footer-part1.col li a:hover{
-  padding-left : 20px;
-  font-size : 1.2rem;
-}
-
 /*default*/
 a{color:#777272;}
 
 /*Components*/
+/*client*/
+
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 50px 0px;
+}
+.testimonials-holder{
+  transition: .5s ease;
+  opacity: 0.3;
+}
+.testimonials-holder:hover{
+  opacity: 0.9;
+}
+.testimonials img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid grey;
+  }
 /*ListItems*/
 .ListItems , .LinksList{
   margin-bottom: 20px;
@@ -175,3 +172,31 @@ a{color:#777272;}
     transform: rotate(360deg);
   }
 }
+
+
+
+/*footer**/
+footer {
+  margin-bottom: 0px;
+}
+.Footer.jumbotron{
+  margin-bottom: 0px;
+  background-color: #343a40;
+ 
+}
+
+.Footer-part1 h3 {
+  color : green;
+}
+
+.nav-item.item-in-footer{
+  padding-bottom : 5px;
+}
+
+.row.footer-row{margin-bottom :40px }
+
+.Footer-part1.col li a:hover{
+  padding-left : 20px;
+  font-size : 1.2rem;
+}
+

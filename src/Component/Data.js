@@ -1,7 +1,8 @@
+//import serv1 from '../img/serv1.png';
 // data products
- const  DataProducts ={
+  const  DataProducts ={
   title :'Products',
-  img : "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg",
+  img : "../img/serv5.png",
   text : "Whether you’ve already identified a transformation roadmap and need help to rapidly execute, or, you’re ready to start looking at what opportunities are out there, we offer a full service approach to building your next digital venture.",
   data:
   [
@@ -12,7 +13,7 @@
          {itemName:"PEOPLE" , itemText : 'Qualitative customer research, interviews'},
          {itemName:"PROCESS" , itemText : 'Operational journey mapping'}
        ],
-       img : "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg"
+       img : "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_fjords.jpg"
       
     },
     {
@@ -51,7 +52,7 @@
 // data services 
   export const  DataServices ={
         title :'services',
-        img : "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg",
+        img :"http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg",
         text : "Whether you’ve already identified a transformation roadmap and need help to rapidly execute, or, you’re ready to start looking at what opportunities are out there, we offer a full service approach to building your next digital venture.",
         data:
         [
@@ -62,7 +63,7 @@
                {itemName:"PEOPLE" , itemText : 'Qualitative customer research, interviews'},
                {itemName:"PROCESS" , itemText : 'Operational journey mapping'}
              ],
-             img : "http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg"
+             img :"http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/w3css/img_car.jpg"
             
           },
           {
