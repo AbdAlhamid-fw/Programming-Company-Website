@@ -1,19 +1,39 @@
 
-.App {
+/*
+myProject     thierProject
+home + log    === logo 
+services  ==== product 
+prodect + client = case studies 
+join us ==  inside home 
+contact us == let's talk
+about us == about us 
+
+*/
+body {
   text-align: center;
+  font-family: "proxima nova regular";
+  font-size: 10px;
+}
+
+h1{
+  font-size: 8.75em;
+  font-weight: 500;
+}
+h2{
+  font-size: 2.75em;
+  font-weight: bolder;
+}
+h3,h4{
+
   font-size: 1.5em;
 }
-body{
-  background-color: #343a40;
-  color :#837a7a;
-}
-h3{
-  color:rgb(117, 18, 18);
-  font-size: 25px;
-}
+
 img{
   height: 100%;
   width: 100%;
+}
+.row{
+  margin:auto 0px;
 }
 
 /**header*/
@@ -35,12 +55,23 @@ img{
   background-color: #057629cf;
   padding: 9px;
 }
+
+/**/
 .style-comp{
   display: contents;
 }
+.dropdown.dropleft.float-right.colors-comp{
+  margin-left: 20px;
+} 
 
 
 /*navbar*/
+a.nav-link{
+  font-family: proxima nova bold;
+  font-weight: bold;
+  color: black;
+}
+
 .collapse.navbar-collapse.fluid-container{
   justify-content: space-between;
 }
@@ -83,7 +114,7 @@ img{
 }
 .carousel-log-img {
   border-radius: 50%;
-  opacity: .5;
+  opacity: .7;
 }
 
 
@@ -94,7 +125,6 @@ img{
 .container1{
   margin: 2px 0px;
   height: auto;
-  background: white;
   padding : 40px 0px;
 }
 
@@ -107,7 +137,9 @@ img{
 
 
 /*default*/
-a{color:#777272;}
+
+
+
 
 /*Components*/
 /*client*/
@@ -131,22 +163,11 @@ a{color:#777272;}
       border-radius: 50%;
       border: 2px solid grey;
   }
-/*ListItems*/
-.ListItems , .LinksList{
-  margin-bottom: 20px;
-  
-}
 
-
+  /*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -159,9 +180,9 @@ a{color:#777272;}
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+*/
 .App-link {
-  color: #61dafb;
+  color: #6b7a7e;
 }
 
 @keyframes App-logo-spin {
@@ -179,24 +200,35 @@ a{color:#777272;}
 footer {
   margin-bottom: 0px;
 }
-.Footer.jumbotron{
-  margin-bottom: 0px;
-  background-color: #343a40;
- 
+
+
+
+/*order is important  // big to small*/
+/*@media*/
+
+/*>1680*/
+@media screen and (max-width: 1680px){
+  body {
+      font-size: 13.4px;
+  }
+  }
+
+/* >1366*/
+@media screen and (max-width: 1366px){
+body {
+    font-size: 11.5px;
+}
 }
 
-.Footer-part1 h3 {
-  color : green;
+/* >1200*/
+@media screen and (max-width: 1200px){
+  body {
+      font-size: 10px;
+   }
+  }
+  /* >920 */
+  @media screen and (max-width: 992px){
+body {
+    font-size: 11px;
 }
-
-.nav-item.item-in-footer{
-  padding-bottom : 5px;
-}
-
-.row.footer-row{margin-bottom :40px }
-
-.Footer-part1.col li a:hover{
-  padding-left : 20px;
-  font-size : 1.2rem;
-}
-
+  }

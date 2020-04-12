@@ -1,15 +1,12 @@
 
 import React from 'react';
-import Carousel from "../Carousel";
-import NavBar from "../NavBar";
+import Nav from "../Nav"; 
 
-function Header() {
+const Header =() => {
   
   return (
-    <div className="Header ">
-       <Carousel/>
-         <NavBar/> 
-      
+    <div className="Header sticky-top">
+       <Nav/> 
     </div>
   );
 }

@@ -6,9 +6,11 @@ import Image3 from "../img/3.jpg";
 import logo from "../img/logo.jpg";
 
 function Carousel() {
-  
+    const style = {
+    margin : "0px" 
+    }
   return (
-    <div className="Carousel">
+    <div className="Carousel" style={style}>
     
      <div id="demo" className="carousel slide" data-ride="carousel">
       {/* add layer*/}

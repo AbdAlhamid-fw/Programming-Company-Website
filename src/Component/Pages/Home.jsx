@@ -1,9 +1,11 @@
 
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Carousel from "../Carousel";
 function Home() {
   return (
     <div className="Home">
+     <Carousel />
     <h1>Home</h1>
    <Jumbotron fluid className="jumbo border rounded ">
             <div className="row">
